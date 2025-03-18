@@ -1,105 +1,67 @@
 name: GitHub Metrics
 
 on:
-  schedule: [{ cron: "0 0 * * *" }] # Runs every day at midnight
+  schedule: [{ cron: "0 0 * * *" }]  # Runs every day at midnight
   workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Metrics Classic
+      - name: Base Metrics - Classic
         uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # General setup
           user: Anurag1428
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
-
-          # ➤ 1. Coding habits
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # ➤ 2. Isometric calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # ➤ 3. Languages
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_indepth: yes
-
-          # ➤ 4. PageSpeed Insights (Portfolio)
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://starter-pack-iota.vercel.app/
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_pwa: yes
-
-          # ➤ 5. Topics
           plugin_topics: yes
-          plugin_topics_mode: mastered
-          plugin_topics_limit: 15
-
-          # ➤ 6. Music (Apple Music)
-          plugin_music: yes
-          plugin_music_provider: apple
-          plugin_music_playlist: 908653514
-          plugin_music_limit: 4
-          plugin_music_played_at: yes
-          plugin_music_user: YOUR_APPLE_ID
-
-          # ➤ 7. Achievements
           plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-
-          # ➤ 8. Stars
+          plugin_music: yes
           plugin_stars: yes
-          plugin_stars_limit: 4
 
-      - name: GitHub Metrics Anime (Anilist)
+      - name: Anime - Naruto Theme
         uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics-anime-naruto.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Anime theme setup
           user: Anurag1428
           template: classic
-          base: ""
-          config_order: anilist
-          config_timezone: Asia/Kolkata
+          base: anime
+          config_order: anime
           plugin_anilist: yes
           plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: favorites, watching, reading
-          plugin_anilist_limit: 3
-          plugin_anilist_limit_characters: 22
-          plugin_anilist_limit_favorites: 10
+          plugin_anilist_sections: favorites, characters, watching, reading
+          plugin_anilist_limit: 4
+          config_twemoji: yes
+          config_octicon: yes
+          config_timezone: Asia/Kolkata
 
-      - name: GitHub Metrics Minimalist
+      - name: Minimal Theme
         uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics-minimal.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Minimalist theme
           user: Anurag1428
-          template: classic
-          base: ""
-          config_order: base, languages, repositories
+          template: minimal
+          base: header, repositories
           config_timezone: Asia/Kolkata
-          config_display: large
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_repositories: yes
-          plugin_repositories_featured: Anurag1428/starter-pack-iota, Anurag1428/dev-overflow
+          plugin_isocalendar: yes
+
+      - name: Achievements with Terminal Theme
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-terminal-achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Anurag1428
+          template: terminal
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          config_timezone: Asia/Kolkata
