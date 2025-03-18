@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+![Metrics](https://raw.githubusercontent.com/Anurag1428/Anurag1428/main/github-metrics.svg)
+
 <!--
 **Anurag1428/Anurag1428** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
