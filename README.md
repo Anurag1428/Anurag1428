@@ -1,39 +1,29 @@
-<h1 align="center">👾 Anurag1428 👾</h1>
+> Want to know what I'm currently working on?  
+> Checkout [@Anurag1428's projects](https://github.com/users/Anurag1428/projects)
 
-<p align="center">
-  <strong>Crafting Immersive Worlds, One Pixel at a Time.</strong>
-</p>
+*PS: I'm currently crafting some immersive worlds with **Progami** and developing cool projects like [Dev Overflow](https://github.com/Anurag1428)! Stay tuned for updates on [my portfolio](https://starter-pack-iota.vercel.app)!*
 
-<p align="center">
-  <img src="https://github.com/Anurag1428/Anurag1428/blob/main/github-metrics.svg" alt="GitHub Metrics" width="100%">
-</p>
+*Thanks for your support and patience while I keep leveling up! 🚀*
 
 ---
 
-### 🛠️ Tech Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/-Three.js-000?style=flat&logo=three.js" />
-  <img src="https://img.shields.io/badge/-React-000?style=flat&logo=react" />
-  <img src="https://img.shields.io/badge/-Node.js-000?style=flat&logo=node.js" />
-  <img src="https://img.shields.io/badge/-Sora-Font-blueviolet" />
-</p>
+[<img align="left" width="390" alt="General" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/general.svg">](#)
+[<img align="right" width="390" alt="Anilist" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/anilist.svg">](#)
+[<img align="right" width="390" height="80" alt="Placeholder" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/placeholder.svg">](#)
 
 ---
 
-### 🔭 Current Projects
-- 🖼️ Building 3D experiences with **Three.js**
-- 🛡️ Dev Overflow (StackOverflow-like app)
-- 🐉 3D Portfolio based on mythological sagas
-- 🚀 Working on **Progami**, my web mascot
+[<img align="left" width="390" alt="Sponsors" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/sponsors.svg">](https://github.com/sponsors/Anurag1428)
+[<img align="right" width="390" alt="Achievements" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/achievements.svg">](#)
 
 ---
 
-### 🌐 Connect with me
-<p align="center">
-  <a href="https://starter-pack-iota.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000?style=flat&logo=vercel" />
-  </a>
-  <a href="https://github.com/Anurag1428">
-    <img src="https://img.shields.io/badge/GitHub-000?style=flat&logo=github" />
-  </a>
-</p>
+[<img width="100%" height="1" alt="Separator" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/placeholder.svg">](#)
+
+---
+
+[<img align="right" alt="Progami Mascot" src="https://github.com/Anurag1428/assets/progami-mascot.gif">](#)
+
+---
+
+<sub>These infographics were generated using [lowlighter/metrics](https://github.com/lowlighter/metrics)</sub>
