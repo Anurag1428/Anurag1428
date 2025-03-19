@@ -16,18 +16,21 @@ jobs:
           user: Anurag1428
           template: classic
           config_timezone: Asia/Kolkata
+          config_order: base, isocalendar, languages, habits, topics, achievements, stars, pagespeed, music, anilist
+          config_twemoji: yes
+          config_padding: 0, 8 + 11%
 
-          # Use "terminal" theme (matches the screenshot vibe)
+          # Theme setup
           config_theme: terminal
-          
+
           # Base sections
           base: header, activity, community, repositories, metadata
 
-          # ➤ Isometric contributions calendar (3D)
+          # Isometric contributions calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # ➤ Languages used (most + recently used)
+          # Languages plugin
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_sections: most-used, recently-used
@@ -35,48 +38,46 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_indepth: yes
 
-          # ➤ Coding habits (time/day/language)
+          # Coding habits plugin
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          # ➤ Achievements
+          # Achievements plugin
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
 
-          # ➤ Stars history
+          # Stars plugin
           plugin_stars: yes
           plugin_stars_limit: 4
 
-          # ➤ Topics (technologies mastered)
+          # Topics plugin
           plugin_topics: yes
           plugin_topics_mode: mastered
           plugin_topics_limit: 15
 
-          # ➤ PageSpeed (Portfolio)
+          # Pagespeed plugin (showcase portfolio performance)
           plugin_pagespeed: yes
           plugin_pagespeed_url: https://starter-pack-iota.vercel.app/
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_pwa: yes
 
-          # ➤ Music (Anime/Terminal feel)
+          # Music plugin (Anime + Terminal vibes)
           plugin_music: yes
           plugin_music_provider: anilist
           plugin_music_limit: 4
           plugin_music_user: Anurag1428
 
-          # ➤ Anime list (Optional but fits theme)
+          # Anilist plugin (optional but fits)
           plugin_anilist: yes
           plugin_anilist_medias: anime
           plugin_anilist_sections: favorites, watching, characters
           plugin_anilist_limit: 2
 
-          # ➤ Minimal display adjustments
-          config_order: base, isocalendar, languages, habits, topics, achievements, stars, pagespeed, music, anilist
-          config_twemoji: yes
-          config_padding: 0, 8 + 11%
+          # Sponsor and funding section (optional)
+          plugin_sponsors: yes
