@@ -1,10 +1,9 @@
 name: Metrics
 
 on:
-  # Runs automatically every day at midnight IST (18:30 UTC)
   schedule:
-    - cron: "0 18 * * *"
-  workflow_dispatch: # Manual trigger
+    - cron: "0 18 * * *" # Midnight IST
+  workflow_dispatch:
 
 jobs:
   github-metrics:
@@ -15,10 +14,10 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           # MAIN SETTINGS
-          token: ${{ secrets.METRICS_TOKEN }}         # GitHub PAT with repo + gist
-          committer_gist: ${{ secrets.GIST_ID }}      # Gist ID for output
-          output_action: gist                         # Output to Gist
-          config_timezone: Asia/Kolkata               # Timezone
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_gist: ${{ secrets.GIST_ID }}
+          output_action: gist
+          config_timezone: Asia/Kolkata
 
           # BASE HEADER + REPO ACTIVITY
           base: header, repositories
@@ -73,9 +72,14 @@ jobs:
           plugin_stargazers_charts_type: classic
 
           # FORTUNE (Quotes)
-          plugin_followup: yes
+          plugin_fortune: yes # Not plugin_followup
 
           # CUSTOMIZATION (Themes and Layout)
           config_order: base.header, isocalendar, languages, notable, anilist, music, achievements
           config_display: large
           config_padding: 10
+          config_twemoji: no
+          config_gemoji: yes
+          config_octicon: no
+          config_animations: yes
+
