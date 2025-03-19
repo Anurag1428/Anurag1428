@@ -15,15 +15,15 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           # MAIN SETTINGS
-          token: ${{ secrets.METRICS_TOKEN }}        # GitHub PAT with repo + gist
+          token: ${{ secrets.METRICS_TOKEN }}         # GitHub PAT with repo + gist
           committer_gist: ${{ secrets.GIST_ID }}      # Gist ID for output
           output_action: gist                         # Output to Gist
-          config_timezone: Asia/Kolkata               # Your timezone
-          
+          config_timezone: Asia/Kolkata               # Timezone
+
           # BASE HEADER + REPO ACTIVITY
           base: header, repositories
           base_indepth: yes
-          
+
           # ISOCALENDAR (Contributions)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -43,40 +43,39 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_limit: 10
 
-          # ANILIST (Anime)
+          # ANILIST (Anime & Manga)
           plugin_anilist: yes
-          plugin_anilist_token: ${{ secrets.ANILIST_TOKEN }}
           plugin_anilist_user: Anurag1428
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: favorites, characters, watching
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
 
-          # SPOTIFY MUSIC
+          # MUSIC (Spotify)
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.SPOTIFY_TOKEN }}
-          plugin_music_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
           plugin_music_mode: recent
           plugin_music_limit: 9
-          
+
           # GITHUB TOPICS
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 15
 
-          # REPO NOTABLES
+          # NOTABLE CONTRIBUTIONS
           plugin_notable: yes
           plugin_notable_filter: stars:>0
-          
+
           # STARGAZERS
           plugin_stargazers: yes
+          plugin_stargazers_charts: true
+          plugin_stargazers_charts_type: classic
 
-          # FOLLOW-UP QUOTES (Fortune)
-          plugin_fortune: yes
+          # FORTUNE (Quotes)
+          plugin_followup: yes
 
           # CUSTOMIZATION (Themes and Layout)
           config_order: base.header, isocalendar, languages, notable, anilist, music, achievements
           config_display: large
           config_padding: 10
-          config_title: 👾 Anurag1428 👾
