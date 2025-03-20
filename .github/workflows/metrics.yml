@@ -25,8 +25,15 @@ jobs:
           base: header, repositories
           base_indepth: yes
 
+          # plugin_isocalendar: yes
+          # plugin_isocalendar_duration: full-year
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_sections: half-year
+          plugin_isocalendar_as: 3d
+          plugin_isocalendar_size: large
+          plugin_isocalendar_saturation: 1
+          plugin_isocalendar_colors: "0:000000, 0.25:008000, 0.5:00FF00, 1:ADFF2F"
+
 
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
