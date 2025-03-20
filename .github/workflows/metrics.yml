@@ -111,20 +111,17 @@ jobs:
 
           plugin_music: yes
           plugin_music_provider: spotify
-          plugin_music_token: ${{ secrets.SPOTIFY_TOKEN }}
-          plugin_music_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
           plugin_music_mode: recent
           plugin_music_limit: 9
           plugin_music_played_at: yes
           plugin_music_user: 31nofborjugmdmzzihwx2ybf5mmy
-
-
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKEN }}
+          plugin_music_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
           config_display: large
           config_padding: 10
           config_gemoji: yes
           config_animations: yes
-
       # ===============================
       # NOTABLE CONTRIBUTIONS
       # ===============================
