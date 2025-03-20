@@ -15,6 +15,11 @@
 
 [<img align="left" width="390" alt="General" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/general.svg">](#)
 [<img align="right" width="390" alt="Anilist" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/anilist.svg">](#)
+
+<br clear="both"/>
+
+[<img align="right" width="390" alt="Spotify" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/music.svg">](#)
+
 [<img align="right" width="390" height="80" alt="Placeholder" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/placeholder.svg">](#)
 
 ---
