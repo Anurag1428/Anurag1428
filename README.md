@@ -5,11 +5,14 @@
 ---
 
 > Want to know what I'm currently working on?  
-> Checkout [@Anurag1428's projects](https://github.com/users/Anurag1428/projects)
+> Check out [@Anurag1428's projects](https://github.com/users/Anurag1428/projects)!
 
-*PS: I'm currently crafting some immersive worlds with **Progami** and developing cool projects like [Dev Overflow](https://github.com/Anurag1428)! Stay tuned for updates on [my portfolio](https://starter-pack-iota.vercel.app)!*
+🛠️ **Currently Crafting**:  
+- 🌌 Immersive worlds with **Progami**  
+- 💻 Cool projects like [Dev Overflow](https://github.com/Anurag1428)  
+- 🎨 See it all on [my portfolio](https://starter-pack-iota.vercel.app)!
 
-*Thanks for your support and patience while I keep leveling up! 🚀*
+🚀 Thanks for your support and patience while I keep leveling up!
 
 ---
 
@@ -18,8 +21,7 @@
 
 <br clear="both"/>
 
-[<img align="right" width="390" alt="Spotify" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/music.svg">](#)
-
+[<img align="left" width="390" alt="Spotify" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/music.svg">](#)
 [<img align="right" width="390" height="80" alt="Placeholder" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/placeholder.svg">](#)
 
 ---
@@ -33,7 +35,7 @@
 
 ---
 
-[<img align="right" alt="Progami Mascot" src="https://github.com/Anurag1428/assets/progami-mascot.gif">](#)
+[<img align="center" alt="Progami Mascot" src="https://github.com/Anurag1428/assets/progami-mascot.gif">](#)
 
 ---
 
