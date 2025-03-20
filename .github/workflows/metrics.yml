@@ -116,7 +116,7 @@ jobs:
           plugin_music_mode: recent
           plugin_music_limit: 9
           plugin_music_played_at: yes
-          plugin_music_user: anurag1428
+          plugin_music_user: Progami
 
           config_display: large
           config_padding: 10
