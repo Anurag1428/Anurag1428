@@ -16,22 +16,28 @@
 
 ---
 
-[<img align="left" width="390" alt="General" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/general.svg">](#)
-[<img align="right" width="390" alt="Anilist" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/anilist.svg">](#)
+[<img align="left" width="390" alt="General Overview" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/general.svg">](#)
+[<img align="right" width="390" alt="Anilist Stats" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/anilist.svg">](#)
 
 <br clear="both"/>
 
-[<img align="left" width="390" alt="Spotify" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/music.svg">](#)
-[<img align="right" width="390" height="80" alt="Placeholder" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/placeholder.svg">](#)
+---
+
+[<img align="left" width="390" alt="Achievements" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/achievements.svg">](#)
+[<img align="right" width="390" alt="Spotify Music" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/music.svg">](#)
+
+<br clear="both"/>
 
 ---
 
-[<img align="left" width="390" alt="Sponsors" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/sponsors.svg">](https://github.com/sponsors/Anurag1428)
-[<img align="right" width="390" alt="Achievements" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/achievements.svg">](#)
+[<img align="left" width="390" alt="Notable Contributions" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/notable.svg">](#)
+[<img align="right" width="390" alt="Stargazers" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/stargazers.svg">](#)
+
+<br clear="both"/>
 
 ---
 
-[<img width="100%" height="1" alt="Separator" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/placeholder.svg">](#)
+[<img align="center" width="100%" alt="Fortune Quotes" src="https://gist.githubusercontent.com/Anurag1428/e58b7bc9da10abf6dac1cf7609a3ff93/raw/fortune.svg">](#)
 
 ---
 
