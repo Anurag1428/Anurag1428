@@ -25,15 +25,12 @@ jobs:
           base: header, repositories
           base_indepth: yes
 
-          # plugin_isocalendar: yes
-          # plugin_isocalendar_duration: full-year
           plugin_isocalendar: yes
           plugin_isocalendar_sections: half-year
           plugin_isocalendar_as: 3d
           plugin_isocalendar_size: large
           plugin_isocalendar_saturation: 1
           plugin_isocalendar_colors: "0:000000, 0.25:008000, 0.5:00FF00, 1:ADFF2F"
-
 
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
@@ -61,6 +58,8 @@ jobs:
           output_action: gist
           config_timezone: Asia/Kolkata
 
+          base: "" # Remove redundant profile header/repo sections
+
           plugin_anilist: yes
           plugin_anilist_user: Progami
           plugin_anilist_medias: anime, manga
@@ -86,6 +85,8 @@ jobs:
           output_action: gist
           config_timezone: Asia/Kolkata
 
+          base: "" # Remove redundant profile header/repo sections
+
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
@@ -109,18 +110,20 @@ jobs:
           output_action: gist
           config_timezone: Asia/Kolkata
 
+          base: "" # Remove redundant profile header/repo sections
+
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.SPOTIFY_CLIENT_ID }},${{ secrets.SPOTIFY_CLIENT_SECRET }},${{ secrets.SPOTIFY_REFRESH_TOKEN }}
           plugin_music_mode: current
           plugin_music_limit: 9
           plugin_music_played_at: yes
-          
 
           config_display: large
           config_padding: 10
           config_gemoji: yes
           config_animations: yes
+
       # ===============================
       # NOTABLE CONTRIBUTIONS
       # ===============================
@@ -132,6 +135,8 @@ jobs:
           committer_gist: ${{ secrets.GIST_ID }}
           output_action: gist
           config_timezone: Asia/Kolkata
+
+          base: "" # Remove redundant profile header/repo sections
 
           plugin_notable: yes
           plugin_notable_filter: stars:>0
@@ -153,6 +158,8 @@ jobs:
           output_action: gist
           config_timezone: Asia/Kolkata
 
+          base: "" # Remove redundant profile header/repo sections
+
           plugin_stargazers: yes
           plugin_stargazers_charts: true
           plugin_stargazers_charts_type: classic
@@ -173,6 +180,8 @@ jobs:
           committer_gist: ${{ secrets.GIST_ID }}
           output_action: gist
           config_timezone: Asia/Kolkata
+
+          base: "" # Remove redundant profile header/repo sections
 
           plugin_fortune: yes
 
